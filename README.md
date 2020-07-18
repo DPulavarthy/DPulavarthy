@@ -4,6 +4,6 @@
 [![Twitter](https://img.shields.io/twitter/follow/iKurasad?style=flat-square)](https://twitter.com/iKurasad)
 [![Patreon](https://img.shields.io/badge/Donate-Patreon-%23F96854)](https://www.patreon.com/jonin)
 [![Discord Bots](https://top.gg/api/widget/owner/662517805983334416.svg?noavatar=true)](https://top.gg/bot/662517805983334416)
-## ***I basically don't know what i'm doing but I got this far so I guess that's an accomplishment.***
+### ***I basically don't know what i'm doing but I got this far so I guess that's an accomplishment.***
 
 ![Kurasad's github stats](https://github-readme-stats.vercel.app/api?username=DPulavarthy&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
