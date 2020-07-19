@@ -5,8 +5,6 @@
 [![Patreon](https://img.shields.io/badge/Donate-Patreon-%23F96854)](https://www.patreon.com/jonin)
 [![Discord Bots](https://top.gg/api/widget/owner/662517805983334416.svg?noavatar=true)](https://top.gg/bot/662517805983334416)
 ### ***I basically don't know what i'm doing but I got this far so I guess that's an accomplishment.***
-
-
-| BADGES | STATS |
+| STATS | BADGES |
 |--|--|
 | ![Kurasad's github stats](https://github-readme-stats.vercel.app/api?username=DPulavarthy&show_icons=true&title_color=fff&icon_color=FF0092&text_color=9f9f9f&bg_color=151515) | <table><td align='center'>May 4, 2020</td><td align='center'>July 8, 2020</td><td align='center'>July 15, 2020</td></tr><tr><td align='center'><img src="https://i.imgur.com/o12Ofsx.png" title="Verified Discord Bot Developer" width="100px"/></td><td align='center'><img src="https://i.imgur.com/uQ9wyC1.png" title="Oracle Autonomous Database Cloud 2019 Certified Specialist" width="100px"/></td><td align='center'><img src="https://i.imgur.com/dbrH5Tb.png" title="Oracle Cloud Infrastructure Foundations 2020 Certified Associate" width="100px"/></td></tr></table> |
