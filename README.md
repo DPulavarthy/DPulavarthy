@@ -8,3 +8,7 @@
 | STATS | BADGES |
 |--|--|
 | ![Kurasad's github stats](https://github-readme-stats.vercel.app/api?username=DPulavarthy&show_icons=true&title_color=fff&icon_color=FF0092&text_color=9f9f9f&bg_color=151515)![Repo Card](https://github-readme-stats.vercel.app/api/pin?username=DPulavarthy&repo=DPulavarthy&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515) | <table><tr><td align='center'>Dec 17, 2012</td><td align='center'>May 4, 2020</td><td align='center'>July 8, 2020</td></tr><tr><td align='center'><img src="https://i.imgur.com/BdInhSn.png" title="Exam 480: Programming in HTML5 with JavaScript and CSS3" width="100px"/></td><td align='center'><img src="https://i.imgur.com/o12Ofsx.png" title="Verified Discord Bot Developer" width="100px"/></td><td align='center'><img src="https://i.imgur.com/uQ9wyC1.png" title="Oracle Autonomous Database Cloud 2019 Certified Specialist" width="100px"/></td></tr><tr><td align='center'>July 15, 2020</td><td align='center'></td><td align='center'></td></tr><tr><td align='center'><img src="https://i.imgur.com/dbrH5Tb.png" title="Oracle Cloud Infrastructure Foundations 2020 Certified Associate" width="100px"/></td><td align='center'></td><td align='center'></td></tr></table> |
+
+## More quotes
+
+### ***"This baka Kura is Indian"*** - AceTiwari#0001
