@@ -2,93 +2,96 @@
 <html lang="en">
 
 <head>
-  <title>Kurrachan</title>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link href="https://i.imgur.com/72qVSiN.png" rel="icon">
-  <link href="https://i.imgur.com/72qVSiN.png" rel="apple-touch-icon">
-  <meta name="theme-color" content="#FF0092">
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@iKurasad" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta property="og:title" content="Kurrachan" />
-  <meta property="og:site_name" content="Kurrachan" />
-  <meta property="og:url" content="https://kura.gq/" />
-  <meta property="og:image" content="https://i.imgur.com/72qVSiN.png" />
-  <meta property="og:description" content="I am on a quest, I forgot what it was about..." />
-  <meta name="keywords" content="Kurasad, Twitter, Developer, Github, Discord, Jonin, Bots, Kura" />
-  <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" />
-  <link rel="canonical" href="https://kura.gq/" />
-  <style>*{font-family:rounded,sans-serif}html{background:rgb(30,30,50);padding-top:25vh}::-webkit-scrollbar{display:none}@keyframes float{0%{transform:translatey(0)}50%{transform:translatey(-20px)}100%{transform:translatey(0)}}.plx-card{transition:all .6s ease;max-width:1100px;display:flex;position:relative;overflow:hidden;margin:30px 0;filter:drop-shadow(0 2px 10px rgb(0,0,0));border-radius:5px;margin-right:auto;margin-left:auto;animation:float 6s ease-in-out infinite}@media screen and (min-width:700px){.plx-card.main{height:280px;overflow:visible;filter:drop-shadow(0 2px 10px rgb(0,0,0))}}@media screen and (max-width:700px){.plx-card{height:auto;width:auto;flex-direction:column;border-radius:5px;margin:25px 15px}}.pxc-avatar{transition:all .6s ease;display:flex;flex-direction:column;height:auto;width:150px;justify-content:space-around}@media screen and (max-width:700px){.pxc-avatar{width:100%;height:100px;justify-content:space-around;align-items:center}}.pxc-avatar img{transition:all .6s ease;width:150px;height:150px;border-radius:100%;box-shadow:0 1px 1rem rgba(10,10,25,.5);position:relative;z-index:1}@media screen and (max-width:900px){.pxc-avatar img{width:125px;height:125px}}@media screen and (max-width:700px){.pxc-avatar img{margin-top:100px}}.pxc-bg{transition:all .6s ease;border-radius:2px;height:100%;width:calc(100% - 75px);position:absolute;z-index:0;pointer-events:none;left:75px;background-size:cover;background-position:right;background-color:rgb(21,21,21)}@media screen and (max-width:900px){.pxc-bg{left:50px}}@media screen and (max-width:700px){.pxc-bg{left:0;top:0;height:200px;width:100%;border-radius:0}}.pxc-subcard{transition:all .6s ease;border-radius:3px;background:rgb(29,29,43);width:650px;margin:25px 200px 25px -25px;z-index:0;padding:15px 25px 15px 40px;position:relative;display:flex;flex-direction:column;box-shadow:0 1px 1rem rgba(10,10,25,.3)}@media screen and (max-width:900px){.pxc-subcard{margin-right:120px;margin-left:-32px}}@media screen and (max-width:700px){.pxc-subcard{margin:25px 15px 30px 15px;padding:60px 25px 20px;width:auto;height:auto;flex:1 0 auto}}.pxc-stopper{transition:all .6s ease;height:100%;width:calc(60%);background:rgba(25,25,25,.3);display:block;position:absolute;z-index:0;left:75px;box-shadow:15px 0 15px -2px rgba(25,25,25,.3)}@media screen and (max-width:900px){.pxc-stopper{left:50px}}@media screen and (max-width:700px){.pxc-stopper{left:0;width:100%;top:200px;height:calc(100% - 200px);background:rgba(25,25,25,.3);border-radius:0;box-shadow:inset 0 7px 3px -3px rgba(50,50,50,.75)}}.pxc-tags{position:absolute;bottom:-15px;right:10px;height:32px;overflow:hidden;text-align:right}.pxc-tags div{color:rgb(255,255,255);display:inline-block;background:rgb(255,0,146);border-radius:12px;padding:2px 10px;line-height:1.7;margin:4px 4px;font-size:12px;height:20px}@media screen and (max-width:700px){.pxc-tags{height:64px;text-align:center;position:relative;width:100%;bottom:0;left:0;margin-bottom:10px}.pxc-tags div{color:rgb(255,0,146);border:solid 1px rgb(255,0,146);background:0 0}}.pxc-title{font-size:24px;margin-bottom:4px;color:rgb(255,255,255);white-space:nowrap;text-overflow:ellipsis;overflow:hidden;flex:0 0 auto}@media screen and (max-width:700px){.pxc-title{font-size:16px;white-space:initial;overflow:initial;text-overflow:initial;text-align:center}}.pxc-sub{font-size:14px;margin:2px 0 8px 0;flex:1 1 auto;overflow:hidden;mask-image:none;-webkit-mask-image:linear-gradient(rgb(0,0,0) 0%,transparent 100%);color:rgb(166,170,209)}@media screen and (max-width:700px){.pxc-sub{font-size:13px;text-align:center}}.pxc-feats{font-size:13px;color:rgb(95,95,128);flex:1 1 auto;padding-bottom:5px;margin-bottom:5px;line-height:1.3;overflow:hidden;mask-image:none;-webkit-mask-image:linear-gradient(rgb(0,0,0) 0%,transparent 100%)}@media screen and (max-width:700px){.pxc-feats{font-size:12px;margin-top:10px;text-align:center}}.bottom-row{flex:0 1 auto;margin-top:10px;display:flex;justify-items:space-around;align-items:center}@media screen and (max-width:700px){.bottom-row{border-top:solid 1px rgba(255,255,255,.05);padding-top:5px}}.bottom-row .pxc-info{display:flex;align-items:center;justify-content:space-between}@media screen and (max-width:700px){.bottom-row .pxc-info{position:absolute;bottom:-28px;left:-10px;justify-content:space-between;width:100%}.bottom-row .pxc-info .region{color:rgb(255,255,255);font-size:13px;text-transform:uppercase}}.bottom-row .links{display:flex;align-content:flex-end;flex:1 0 auto;justify-content:flex-end}.bottom-row .links a{color:rgb(166,170,209);font-size:28px;text-align:center;width:48px;height:48px;display:inline-block;margin:0 10px;cursor:pointer}.bottom-row .links a:hover{color:rgb(255,255,255)}@media screen and (max-width:700px){.bottom-row .links{justify-content:center;margin-top:10px;margin-bottom:-10px}.bottom-row .links a{color:rgb(166,170,209)}}.bottom-row .flags{overflow:visible;height:23px}.bottom-row .flags span{height:16px;display:inline-block}.bottom-row .region{color:rgb(255,255,255);margin-left:8px}</style>
+    <title>Kurrachan</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://i.imgur.com/72qVSiN.png" rel="icon">
+    <link href="https://i.imgur.com/72qVSiN.png" rel="apple-touch-icon">
+    <meta name="theme-color" content="#FF0092">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@iKurasad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Kurrachan" />
+    <meta property="og:site_name" content="Kurrachan" />
+    <meta property="og:url" content="https://kura.gq/" />
+    <meta property="og:image" content="https://i.imgur.com/72qVSiN.png" />
+    <meta property="og:description" content="I am on a quest, I forgot what it was about..." />
+    <meta name="keywords" content="Kurasad, Twitter, Developer, Github, Discord, Jonin, Bots, Kura" />
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" />
+    <link rel="canonical" href="https://kura.gq/" />
+    <style> *{font-family:rounded,sans-serif}html{background:rgb(30,30,50);padding-top:25vh}::-webkit-scrollbar{display:none}@keyframes float{0%{transform:translatey(0)}50%{transform:translatey(-20px)}100%{transform:translatey(0)}}.plx-card{transition:all .6s ease;max-width:1100px;display:flex;position:relative;overflow:hidden;margin:30px 0;filter:drop-shadow(0 2px 10px rgb(0,0,0));border-radius:5px;margin-right:auto;margin-left:auto;animation:float 6s ease-in-out infinite}@media screen and (min-width:700px){.plx-card.main{height:280px;overflow:visible;filter:drop-shadow(0 2px 10px rgb(0,0,0))}}@media screen and (max-width:700px){.plx-card{height:auto;width:auto;flex-direction:column;border-radius:5px;margin:25px 15px}}.pxc-avatar{transition:all .6s ease;display:flex;flex-direction:column;height:auto;width:150px;justify-content:space-around}@media screen and (max-width:700px){.pxc-avatar{width:100%;height:100px;justify-content:space-around;align-items:center}}.pxc-avatar img{transition:all .6s ease;width:150px;height:150px;border-radius:100%;box-shadow:0 1px 1rem rgba(10,10,25,.5);position:relative;z-index:1}@media screen and (max-width:900px){.pxc-avatar img{width:125px;height:125px}}@media screen and (max-width:700px){.pxc-avatar img{margin-top:100px}}.pxc-bg{transition:all .6s ease;border-radius:2px;height:100%;width:calc(100% - 75px);position:absolute;z-index:0;pointer-events:none;left:75px;background-size:cover;background-position:right;background-color:rgb(21,21,21)}@media screen and (max-width:900px){.pxc-bg{left:50px}}@media screen and (max-width:700px){.pxc-bg{left:0;top:0;height:200px;width:100%;border-radius:0}}.pxc-subcard{transition:all .6s ease;border-radius:3px;background:rgb(29,29,43);width:650px;margin:25px 200px 25px -25px;z-index:0;padding:15px 25px 15px 40px;position:relative;display:flex;flex-direction:column;box-shadow:0 1px 1rem rgba(10,10,25,.3)}@media screen and (max-width:900px){.pxc-subcard{margin-right:120px;margin-left:-32px}}@media screen and (max-width:700px){.pxc-subcard{margin:25px 15px 30px 15px;padding:60px 25px 20px;width:auto;height:auto;flex:1 0 auto}}.pxc-stopper{transition:all .6s ease;height:100%;width:calc(60%);background:rgba(25,25,25,.3);display:block;position:absolute;z-index:0;left:75px;box-shadow:15px 0 15px -2px rgba(25,25,25,.3)}@media screen and (max-width:900px){.pxc-stopper{left:50px}}@media screen and (max-width:700px){.pxc-stopper{left:0;width:100%;top:200px;height:calc(100% - 200px);background:rgba(25,25,25,.3);border-radius:0;box-shadow:inset 0 7px 3px -3px rgba(50,50,50,.75)}}.pxc-tags{position:absolute;bottom:-15px;right:10px;height:32px;overflow:hidden;text-align:right}.pxc-tags div{color:rgb(255,255,255);display:inline-block;background:rgb(255,0,146);border-radius:12px;padding:2px 10px;line-height:1.7;margin:4px 4px;font-size:12px;height:20px}@media screen and (max-width:700px){.pxc-tags{height:64px;text-align:center;position:relative;width:100%;bottom:0;left:0;margin-bottom:10px}.pxc-tags div{color:rgb(255,0,146);border:solid 1px rgb(255,0,146);background:0 0}}.pxc-title{font-size:24px;margin-bottom:4px;color:rgb(255,255,255);white-space:nowrap;text-overflow:ellipsis;overflow:hidden;flex:0 0 auto}@media screen and (max-width:700px){.pxc-title{font-size:16px;white-space:initial;overflow:initial;text-overflow:initial;text-align:center}}.pxc-sub{font-size:14px;margin:2px 0 8px 0;flex:1 1 auto;overflow:hidden;mask-image:none;-webkit-mask-image:linear-gradient(rgb(0,0,0) 0%,transparent 100%);color:rgb(166,170,209)}@media screen and (max-width:700px){.pxc-sub{font-size:13px;text-align:center}}.pxc-feats{font-size:13px;color:rgb(95,95,128);flex:1 1 auto;padding-bottom:5px;margin-bottom:5px;line-height:1.3;overflow:hidden;mask-image:none;-webkit-mask-image:linear-gradient(rgb(0,0,0) 0%,transparent 100%)}@media screen and (max-width:700px){.pxc-feats{font-size:12px;margin-top:10px;text-align:center}}.bottom-row{flex:0 1 auto;margin-top:10px;display:flex;justify-items:space-around;align-items:center}@media screen and (max-width:700px){.bottom-row{border-top:solid 1px rgba(255,255,255,.05);padding-top:5px}}.bottom-row .pxc-info{display:flex;align-items:center;justify-content:space-between}@media screen and (max-width:700px){.bottom-row .pxc-info{position:absolute;bottom:-28px;left:-10px;justify-content:space-between;width:100%}.bottom-row .pxc-info .region{color:rgb(255,255,255);font-size:13px;text-transform:uppercase}}.bottom-row .links{display:flex;align-content:flex-end;flex:1 0 auto;justify-content:flex-end}.bottom-row .links a{color:rgb(166,170,209);font-size:28px;text-align:center;width:48px;height:48px;display:inline-block;margin:0 10px;cursor:pointer}.bottom-row .links a:hover{color:rgb(255,255,255)}@media screen and (max-width:700px){.bottom-row .links{justify-content:center;margin-top:10px;margin-bottom:-10px}.bottom-row .links a{color:rgb(166,170,209)}}.bottom-row .flags{overflow:visible;height:23px}.bottom-row .flags span{height:16px;display:inline-block}.bottom-row .region{color:rgb(255,255,255);margin-left:8px} </style>
 </head>
 
 <body>
-  <div style="position: absolute; z-index: -99; width: 100vw; height: 100vh; right: 0px; top: 0px; overflow: hidden;">
-    <iframe frameborder="0" height="120%" width="120%" src="https://jonin.gq/particle">
-    </iframe>
-  </div>
-  <div class="plx-card main">
-    <div class="pxc-bg" style="background-image: url('https://i.imgur.com/Q0eLjJ3.png'); overflow: hidden;"></div>
-    <div class="pxc-avatar"><img src="https://i.imgur.com/72qVSiN.png" /></div>
-    <div class="pxc-stopper"></div>
-    <div class="pxc-subcard">
-      <div class="pxc-title"><b><a href="https://dsc.bio/kurasad" target="_blank"
-            style="text-decoration: none !important; color: rgb(255, 255, 255);" id="creator"><a></b></div>
-      <div class="pxc-sub">
-        <b><i>
-            "I basically don't know what I'm doing but I got this far so I guess that's an accomplishment."
-          </i></b>
-      </div>
-      <div class="pxc-feats">
-        I am a 16 year old High School senior who like to watch anime. I like to code and make unique programs for
-        everyone to use. I am the creator of
-        <a href="https://top.gg/bot/662517805983334416"
-          style="text-decoration: none !important; color: rgb(95, 95, 128)">Jonin</a>
-        and currently a Discord Bot Developer, experienced in Node.JS, Python, HTML, CSS, and other programs.
-        <br />
-
-      </div>
-      <div class="pxc-tags">
-        <div>Twitter: @iKurasad</div>
-        <div>Serving: <a id="user"></a> users</div>
-        <div>Coded: <a id="lines"></a> lines</div>
-        <div>Created: <a id="username"></a></div>
-      </div>
-      <div class="bottom-row">
-        <div class="pxc-info">
-          <div class="flags">
-            <span
-              style="font-size: 20px; color: rgb(255, 255, 255) !important; background-color: transparent !important; vertical-align: top !important;">
-              <a href="https://www.youracclaim.com/badges/96d304df-71ec-4070-8c7d-e1afef7a3d7f/public_url"
-                target="_blank"><img src="https://i.imgur.com/dbrH5Tb.png" style="max-width: 20px;"
-                  title="Oracle Cloud Infrastructure Foundations 2020 Certified Associate"></img></a></span>
-            <span
-              style="font-size: 20px; color: rgb(255, 255, 255) !important; background-color: transparent !important; vertical-align: top !important;">
-              <a href="https://www.youracclaim.com/badges/66514c8d-2abb-44ca-9166-29d8f7976284/public_url"
-                target="_blank"><img src="https://i.imgur.com/uQ9wyC1.png" style="max-width: 20px;"
-                  title="Oracle Autonomous Database Cloud 2019 Certified Specialist"></img></a></span>
-            <span
-              style="font-size: 20px; color: rgb(255, 255, 255) !important; background-color: transparent !important; vertical-align: top !important;">
-              <a href="https://www.youracclaim.com/badges/a50b0cba-142d-426f-af5d-866f2b0cbd66/public_url"
-                target="_blank"><img src="https://i.imgur.com/ZgXZsks.png" style="max-width: 20px;"
-                  title="Oracle Cloud Infrastructure 2019 Cloud Operations Certified Associate"></img></a></span>
-            <span
-              style="font-size: 20px; color: rgb(255, 255, 255) !important; background-color: transparent !important; vertical-align: top !important;">
-              <img src="https://i.imgur.com/o12Ofsx.png" style="max-width: 20px;"
-                title="Verified Bot Developer"></img></span>
-          </div>
-        </div>
-        <div class="links">
-          <a class="site" href="https://github.com/DPulavarthy" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://twitter.com/iKurasad" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a class="shop" href="https://discord.com/users/476812566530883604" target="_blank"><i class="fab fa-discord">
-            </i></a>
-        </div>
-      </div>
+    <div style="position: absolute; z-index: -99; width: 100vw; height: 100vh; right: 0px; top: 0px; overflow: hidden;">
+        <iframe frameborder="0" height="120%" width="120%" src="https://jonin.gq/particle">
+        </iframe>
     </div>
-  </div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js'></script>
+    <div class="plx-card main">
+        <div class="pxc-bg" style="background-image: url('https://i.imgur.com/Q0eLjJ3.png'); overflow: hidden;"></div>
+        <div class="pxc-avatar"><img src="https://i.imgur.com/72qVSiN.png" /></div>
+        <div class="pxc-stopper"></div>
+        <div class="pxc-subcard">
+            <div class="pxc-title"><b><a href="https://dsc.bio/kurasad" target="_blank"
+                        style="text-decoration: none !important; color: rgb(255, 255, 255);" class="creator"></a></b></div>
+            <div class="pxc-sub">
+                <b><i>
+                        "I basically don't know what I'm doing but I got this far so I guess that's an accomplishment."
+                    </i></b>
+            </div>
+            <div class="pxc-feats">
+                I am a 16 year old High School senior who like to watch anime. I like to code and make unique programs
+                for
+                everyone to use. I am the creator of
+                <a href="https://top.gg/bot/662517805983334416"
+                    style="text-decoration: none !important; color: rgb(95, 95, 128)">Jonin</a>
+                and currently a Discord Bot Developer, experienced in Node.JS, Python, HTML, CSS, and other programs.
+                <br />
+
+            </div>
+            <div class="pxc-tags">
+                <div>Twitter: @iKurasad</div>
+                <div>Serving: <a class="user"></a> users</div>
+                <div>Coded: <a class="lines"></a> lines</div>
+                <div>Created: <a class="username"></a></div>
+            </div>
+            <div class="bottom-row">
+                <div class="pxc-info">
+                    <div class="flags">
+                        <span
+                            style="font-size: 20px; color: rgb(255, 255, 255) !important; background-color: transparent !important; vertical-align: top !important;">
+                            <a href="https://www.youracclaim.com/badges/96d304df-71ec-4070-8c7d-e1afef7a3d7f/public_url"
+                                target="_blank"><img src="https://i.imgur.com/dbrH5Tb.png" style="max-width: 20px;"
+                                    title="Oracle Cloud Infrastructure Foundations 2020 Certified Associate" /></a></span>
+                        <span
+                            style="font-size: 20px; color: rgb(255, 255, 255) !important; background-color: transparent !important; vertical-align: top !important;">
+                            <a href="https://www.youracclaim.com/badges/66514c8d-2abb-44ca-9166-29d8f7976284/public_url"
+                                target="_blank"><img src="https://i.imgur.com/uQ9wyC1.png" style="max-width: 20px;"
+                                    title="Oracle Autonomous Database Cloud 2019 Certified Specialist" /></a></span>
+                        <span
+                            style="font-size: 20px; color: rgb(255, 255, 255) !important; background-color: transparent !important; vertical-align: top !important;">
+                            <a href="https://www.youracclaim.com/badges/a50b0cba-142d-426f-af5d-866f2b0cbd66/public_url"
+                                target="_blank"><img src="https://i.imgur.com/ZgXZsks.png" style="max-width: 20px;"
+                                    title="Oracle Cloud Infrastructure 2019 Cloud Operations Certified Associate" /></a></span>
+                        <span
+                            style="font-size: 20px; color: rgb(255, 255, 255) !important; background-color: transparent !important; vertical-align: top !important;">
+                            <img src="https://i.imgur.com/o12Ofsx.png" style="max-width: 20px;"
+                                title="Verified Bot Developer" /></span>
+                    </div>
+                </div>
+                <div class="links">
+                    <a class="site" href="https://github.com/DPulavarthy" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/iKurasad" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="shop" href="https://discord.com/users/476812566530883604" target="_blank"><i
+                            class="fab fa-discord">
+                        </i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js'></script>
+    <script> var _0x9ff4=["\x47\x45\x54","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x70\x72\x65\x61\x64\x73\x68\x65\x65\x74\x73\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x66\x65\x65\x64\x73\x2F\x63\x65\x6C\x6C\x73\x2F\x31\x51\x74\x39\x5F\x4D\x46\x7A\x47\x6B\x4F\x49\x6B\x68\x62\x6D\x38\x32\x6B\x50\x72\x54\x4B\x48\x37\x78\x68\x35\x7A\x53\x43\x65\x63\x59\x54\x56\x72\x73\x4A\x33\x45\x4B\x74\x34\x2F\x31\x2F\x70\x75\x62\x6C\x69\x63\x2F\x66\x75\x6C\x6C\x3F\x61\x6C\x74\x3D\x6A\x73\x6F\x6E","\x6F\x70\x65\x6E","\x73\x65\x6E\x64","\x6F\x6E\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6E\x67\x65","\x3A","\x69\x6E\x64\x65\x78\x4F\x66","\x24\x74","\x63\x6F\x6E\x74\x65\x6E\x74","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x43\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68","\x6C\x6F\x67","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x66\x6F\x72\x45\x61\x63\x68","\x65\x6E\x74\x72\x79","\x66\x65\x65\x64","\x72\x65\x73\x70\x6F\x6E\x73\x65\x54\x65\x78\x74","\x70\x61\x72\x73\x65"];let res= new XMLHttpRequest;res[_0x9ff4[2]](_0x9ff4[0],_0x9ff4[1],!0),res[_0x9ff4[3]](),res[_0x9ff4[4]]= async function(){JSON[_0x9ff4[18]](res[_0x9ff4[17]])[_0x9ff4[16]][_0x9ff4[15]][_0x9ff4[14]]((_0xb0b8x2)=>{let _0xb0b8x3=_0xb0b8x2[_0x9ff4[8]][_0x9ff4[7]][_0x9ff4[6]](_0x9ff4[5]),_0xb0b8x4=document[_0x9ff4[10]](_0xb0b8x2[_0x9ff4[8]][_0x9ff4[7]][_0x9ff4[9]](0,_0xb0b8x3));if(_0xb0b8x4&& _0xb0b8x4[_0x9ff4[11]]> 0){console[_0x9ff4[12]](_0xb0b8x4),_0xb0b8x4[0][_0x9ff4[13]]= _0xb0b8x2[_0x9ff4[8]][_0x9ff4[7]][_0x9ff4[9]](_0xb0b8x3+ 1);for(let _0xb0b8x5=0;_0xb0b8x5< _0xb0b8x4[_0x9ff4[11]];_0xb0b8x5++){_0xb0b8x4[_0xb0b8x5][_0x9ff4[13]]= _0xb0b8x2[_0x9ff4[8]][_0x9ff4[7]][_0x9ff4[9]](_0xb0b8x3+ 1)}}})}; </script>
 </body>
-<script>let res = new XMLHttpRequest; res.open("GET", "https://spreadsheets.google.com/feeds/cells/1Qt9_MFzGkOIkhbm82kPrTKH7xh5zSCecYTVrsJ3EKt4/1/public/full?alt=json", !0), res.send(), res.onreadystatechange = async function () { JSON.parse(res.responseText).feed.entry.forEach(e => { let t = e.content.$t.indexOf(":"), n = document.getElementById(e.content.$t.substring(0, t)); n && (n.innerHTML = e.content.$t.substring(t + 1)) }) };</script>
 
 </html>
