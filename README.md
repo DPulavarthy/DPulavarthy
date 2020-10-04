@@ -5,7 +5,7 @@
 [![Patreon](https://img.shields.io/badge/Donate-Patreon-%23F96854)](https://www.patreon.com/jonin)
 [![Discord Bots](https://top.gg/api/widget/owner/662517805983334416.svg?noavatar=true)](https://top.gg/bot/662517805983334416)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DPulavarthy/DPulavarthy)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DPulavarthy/DPulavarthy)
+![Rita's code size in bytes](https://img.shields.io/github/languages/code-size/DPulavarthy/rita)
 ### ***"I basically don't know what I'm doing but I got this far so I guess that's an accomplishment."*** - Kurrachan
 | STATS | BADGES |
 |--|--|
