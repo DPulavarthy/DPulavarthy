@@ -1,4 +1,4 @@
-# Hi there 👋, My name is [Kurasad#2521](https://kura.gq)
+# Hi there 👋, My name is Dhanush [[Kurasad#2521](https://kura.gq)]
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ef7c1b0a-b6b7-4995-872c-a4e197ef5c8f/deploy-status)](https://app.netlify.com/sites/kurasad/deploys)
 [![Discord Server](https://discordapp.com/api/guilds/666312150775758853/widget.png)](https://discord.gg/H5PwwSJ)
 [![Twitter](https://img.shields.io/twitter/follow/iKurasad?style=flat-square)](https://twitter.com/iKurasad)
