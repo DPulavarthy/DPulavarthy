@@ -7,7 +7,6 @@
 [![Discord Bots Owner](https://top.gg/api/widget/owner/662517805983334416.svg)](https://top.gg/bot/662517805983334416)
 [![Discord Bots Status](https://top.gg/api/widget/status/662517805983334416.svg)](https://top.gg/bot/662517805983334416)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DPulavarthy/DPulavarthy)
-![Rita's code size in bytes](https://img.shields.io/github/languages/code-size/DPulavarthy/rita)
 
 ### ***"I basically don't know what I'm doing but I got this far so I guess that's an accomplishment."*** - Kurrachan
 
