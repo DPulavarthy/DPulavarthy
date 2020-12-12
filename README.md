@@ -4,7 +4,8 @@
 [![Discord Server](https://discordapp.com/api/guilds/666312150775758853/widget.png)](https://discord.gg/H5PwwSJ)
 [![Twitter](https://img.shields.io/twitter/follow/iKurasad?style=flat-square)](https://twitter.com/iKurasad)
 [![Patreon](https://img.shields.io/badge/Donate-Patreon-%23F96854)](https://www.patreon.com/jonin)
-[![Discord Bots](https://top.gg/api/widget/owner/662517805983334416.svg?noavatar=true)](https://top.gg/bot/662517805983334416)
+[![Discord Bots Owner](https://top.gg/api/widget/owner/662517805983334416.svg)](https://top.gg/bot/662517805983334416)
+[![Discord Bots Status](https://top.gg/api/widget/status/662517805983334416.svg)](https://top.gg/bot/662517805983334416)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DPulavarthy/DPulavarthy)
 ![Rita's code size in bytes](https://img.shields.io/github/languages/code-size/DPulavarthy/rita)
 
