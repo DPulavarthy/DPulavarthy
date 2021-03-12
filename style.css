@@ -716,14 +716,19 @@ li {
 
 #refresh {
   cursor: pointer;
-  font-size: 11px;
 }
 
-#meta {
+#meta, #refresh {
   overflow: visible;
   white-space: nowrap;
   font-size: 11px;
   margin-top: 55px;
+}
+
+#load {
+  overflow: visible;
+  white-space: nowrap;
+  font-size: 11px;
 }
 
 #profile {
