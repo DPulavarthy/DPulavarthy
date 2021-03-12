@@ -222,9 +222,8 @@
   }
 
   async function update() {
-    let response = await fetch(`http://51.222.133.19:8888/data`),
-      body = await response.json()
-    console.log(body)
+    let response = await fetch(`https://spreadsheets.google.com/feeds/cells/1g140yoQpInHiTqlPkbd85Vha5ZvFQZJJpWb4u0Xmw3A/1/public/full?alt=json`), body = await response.json()
+    body = JSON.parse(body.feed.entry[0].content.$t)
     localStorage.setItem(`kurasad-guilds`, body.guilds)
     localStorage.setItem(`kurasad-members`, body.members)
     localStorage.setItem(`kurasad-lastUpdated`, new Date().getTime())
