@@ -582,6 +582,7 @@ body {
 }
 
 .gituser img {
+  max-width: 35px !important;
   content: var(--gituser);
   transition: all 0.6s;
 }
@@ -591,6 +592,7 @@ body {
 }
 
 .patreon img {
+  max-width: 35px !important;
   content: var(--patreon);
   transition: all 0.6s;
 }
@@ -600,6 +602,7 @@ body {
 }
 
 .twitter img {
+  max-width: 35px !important;
   content: var(--twitter);
   transition: all 0.6s;
 }
@@ -609,6 +612,7 @@ body {
 }
 
 .kurasad img {
+  max-width: 35px !important;
   content: var(--discord);
   transition: all 0.6s;
 }
