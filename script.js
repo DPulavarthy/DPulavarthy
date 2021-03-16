@@ -1,3 +1,20 @@
+let url = new URL(window.location.href).searchParams
+
+switch (url.get(`to`)) {
+  case `project`: {
+    location.href = `https://hacking-with-ht.ml/kurasad/project`
+    break
+  }
+  case `share`: {
+    location.href = `https://hacking-with-ht.ml/sharing`
+    break
+  }
+  case `support`: {
+    location.href = `https://discord.gg/H5PwwSJ`
+    break
+  }
+}
+
 let init = new Date().getTime()
 
 Object.mergify = (main, ...subs) => {
@@ -6,13 +23,13 @@ Object.mergify = (main, ...subs) => {
 }
 // Particle animated background.
 ((a, b) => {
-  function c(a) {
-    a = a || new Object()
-    for (let b = 1; b < arguments.length; b++) {
-      let c = arguments[b]
-      if (c) for (let d in c) c.hasOwnProperty(d) && (`object` == typeof c[d] ? deepExtend(a[d], c[d]) : a[d] = c[d])
+  function c(_a) {
+    _a = _a || new Object()
+    for (let _b = 1; _b < arguments.length; _b++) {
+      let _c = arguments[_b]
+      if (_c) for (let _d in _c) _c.hasOwnProperty(_d) && (`object` === typeof _c[_d] ? deepExtend(_a[_d], _c[_d]) : _a[_d] = _c[_d])
     }
-    return a
+    return _a
   }
 
   function d(d, g) {
@@ -39,6 +56,7 @@ Object.mergify = (main, ...subs) => {
     function i() { r.width = d.offsetWidth, r.height = d.offsetHeight, s.fillStyle = g.dotColor, s.strokeStyle = g.lineColor, s.lineWidth = g.lineWidth }
 
     function j() {
+      let t
       if (y) {
         u = a.innerWidth, v = a.innerHeight, s.clearRect(0, 0, r.width, r.height)
         for (let b = 0; b < z.length; b++) z[b].updatePosition()
@@ -177,23 +195,6 @@ for (element of document.getElementsByClassName(`particle`) || []) element.inner
 for (element of document.getElementsByClassName(`particles-foreground`) || []) particleground(element, { dotColor: `rgba(255, 255, 255, 1)`, lineColor: `rgba(255, 255, 255, 0.05)`, minSpeedX: 0.3, maxSpeedX: 0.6, minSpeedY: 0.3, maxSpeedY: 0.6, density: 50000, curvedLines: false, proximity: 250, parallaxMultiplier: 10, particleRadius: 4, })
 
 for (element of document.getElementsByClassName(`particles-background`) || []) particleground(element, { dotColor: `rgba(255, 255, 255, 0.5)`, lineColor: `rgba(255, 255, 255, 0.05)`, minSpeedX: 0.075, maxSpeedX: 0.15, minSpeedY: 0.075, maxSpeedY: 0.15, density: 30000, curvedLines: false, proximity: 20, parallaxMultiplier: 20, particleRadius: 6, })
-
-let url = new URL(window.location.href).searchParams
-
-switch (url.get(`to`)) {
-  case `project`: {
-    location.href = `https://hacking-with-ht.ml/kurasad/project`
-    break
-  }
-  case `share`: {
-    location.href = `https://hacking-with-ht.ml/sharing`
-    break
-  }
-  case `support`: {
-    location.href = `https://discord.gg/H5PwwSJ`
-    break
-  }
-}
 
 for (element of document.getElementsByClassName(`particle`) || []) element.oncontextmenu = e => { e.preventDefault(), e.stopPropagation() }
 for (element of document.getElementsByClassName(`avatar`) || []) element.innerHTML = `<img title="Kurasad PFP" alt="Kurasad PFP" />`
