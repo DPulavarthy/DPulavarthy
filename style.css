@@ -17,6 +17,7 @@
   --dca: url(https://hacking-with-ht.ml/kuragq/badges/dca.png);
   --caa: url(https://hacking-with-ht.ml/kuragq/badges/caa.png);
   --itc: url(https://hacking-with-ht.ml/kuragq/badges/itc.png);
+  --mdf: url(https://hacking-with-ht.ml/kuragq/badges/mdf.png);
   --gituser: url(https://hacking-with-ht.ml/kuragq/icons/gituser.svg);
   --patreon: url(https://hacking-with-ht.ml/kuragq/icons/patreon.svg);
   --twitter: url(https://hacking-with-ht.ml/kuragq/icons/twitter.svg);
@@ -579,6 +580,10 @@ body {
 
 .itc img {
   content: var(--itc)
+}
+
+.mdf img {
+  content: var(--mdf)
 }
 
 .gituser img {
