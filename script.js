@@ -1,20 +1,3 @@
-let url = new URL(window.location.href).searchParams
-
-switch (url.get(`to`)) {
-  case `project`: {
-    location.href = `https://hacking-with-ht.ml/kurasad/project`
-    break
-  }
-  case `share`: {
-    location.href = `https://hacking-with-ht.ml/sharing`
-    break
-  }
-  case `support`: {
-    location.href = `https://discord.gg/H5PwwSJ`
-    break
-  }
-}
-
 let init = new Date().getTime()
 
 Object.mergify = (main, ...subs) => {

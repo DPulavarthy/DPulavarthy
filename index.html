@@ -64,6 +64,39 @@
 
   <link rel="icon" href="https://hacking-with-ht.ml/jonin_square.png" />
   <link rel="stylesheet" href="style.css">
+  <script>
+    let url = new URL(window.location.href).searchParams
+
+    switch (url.get(`to`)) {
+      case `project`: {
+        location.href = `https://hacking-with-ht.ml/kurasad/project`
+        break
+      }
+      case `share`: {
+        location.href = `https://hacking-with-ht.ml/sharing`
+        break
+      }
+      case `support`: {
+        location.href = `https://discord.gg/H5PwwSJ`
+        break
+      }
+    }
+
+    switch (url.get(`join`)) {
+      case `hv`: {
+        location.href = `https://discord.gg/SND59YNxW3`
+        break
+      }
+      case `jonin`: {
+        location.href = `https://discord.gg/H5PwwSJ`
+        break
+      }
+      case `blueberry`: {
+        location.href = `https://discord.gg/AYtVGgNrb3`
+        break
+      }
+    }
+  </script>
 </head>
 
 <body>
