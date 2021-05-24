@@ -181,4 +181,4 @@ axios.get(`https://api.kurasad.dev/status/476812566530883604`)
         View(viewPage)
     })
 
-// 🔒 This is protected code, see https://kura.gq?to=share for more information.
+// 🔒 This is protected code, see https://kura.gq/terms for more information.
