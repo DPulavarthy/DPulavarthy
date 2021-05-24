@@ -1,0 +1,31 @@
+/* Vars for other SCSS files. */
+
+/* Import fonts. */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* Define variables. */
+$font-main: 'JetBrains Mono', monospace;
+$font-code: 'Roboto Mono', monospace;
+$master: #e18499;
+$font-color: #c0c0c0;
+$offine: #636b75;
+
+/*
+ * Function to get requested black level HEX.
+ *
+ * Name: black
+ * Param: [$n] A 'int' type param to get level of black.
+ * Return: HEX value for input param from '$level' map.
+ */
+@function black($n) {
+    $level: (
+        0: #000000,
+        1: #111111,
+        2: #222222,
+        3: #333333,
+        4: #444444,
+        5: #555555,
+    );
+    @return map-get($level, $n);
+}

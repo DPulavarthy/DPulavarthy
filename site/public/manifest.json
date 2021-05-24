@@ -1,0 +1,25 @@
+{
+  "short_name": "Kurasad",
+  "name": "Kurasad's Profile",
+  "icons": [
+    {
+      "src": "assets/jonin.png",
+      "sizes": "2048x2048",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/jonin192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/jonin512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#E18499",
+  "background_color": "#111111"
+}

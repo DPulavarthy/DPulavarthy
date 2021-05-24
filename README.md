@@ -11,8 +11,8 @@
         <img src="https://api.netlify.com/api/v1/badges/ef7c1b0a-b6b7-4995-872c-a4e197ef5c8f/deploy-status" alt="kura.gq site status [https://kura.gq]" />
     </a>
     <!-- My Server -->
-    <a href="https://kura.gq?to=support">
-        <img src="https://discordapp.com/api/guilds/666312150775758853/widget.png" alt="Jonin Support server [https://kura.gq?to=support]" />
+    <a href="https://kura.gq/support">
+        <img src="https://discordapp.com/api/guilds/666312150775758853/widget.png" alt="Jonin Support server [https://kura.gq/support]" />
     </a>
     <!-- My Twitter -->
     <a href="https://twitter.com/iKurasad">
@@ -39,7 +39,8 @@
 
 | STATS | BADGES |
 |-------|--------|
-| <a href="https://kura.gq"><img src="https://github-readme-stats.vercel.app/api?username=DPulavarthy&count_private=true&show_icons=true&title_color=FFFFFF&icon_color=E18499&text_color=9f9f9f&bg_color=0D1117" alt="Kurasad's Github Status" /></a><a href="https://kura.gq"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DPulavarthy&count_private=true&show_icons=true&title_color=FFFFFF&icon_color=E18499&text_color=9f9f9f&bg_color=0D1117" alt="Kurasad's Github Status" /></a><a href="https://kura.gq"><img src="https://github-readme-stats.vercel.app/api/pin?username=DPulavarthy&repo=rita&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=0D1117" alt="Rita Repo Link" /></a> | <table><tr><td align='center'>May 4, 2020</td><td align='center'>July 8, 2020</td><td align='center'>July 15, 2020</td></tr><tr><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/vbd.png" title="Verified Discord Bot Developer" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/ocs.png" title="Oracle Autonomous Database Cloud 2019 Certified Specialist" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/fca.png" title="Oracle Cloud Infrastructure Foundations 2020 Certified Associate" width="100px"/></tr><tr><td align='center'>July 22, 2020</td><td align='center'>July 29, 2020</td><td align='center'>August 12, 2020</td></tr><tr><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/coca.png" title="Oracle Cloud Infrastructure 2019 Cloud Operations Certified Associate" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/dca.png" title="Oracle Cloud Infrastructure Developer 2020 Certified Associate" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/caa.png" title="Oracle Cloud Infrastructure 2019 Certified Architect Associate" width="100px"/></td></tr><tr><td align='center'>August 12, 2020</td><td align='center'>October 13, 2020</td><td align='center'>March 10, 2021</td></tr><tr><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/cap.png" title="Oracle Cloud Infrastructure 2019 Certified Architect Professional" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/itc.png" title="Introduction to Cybersecurity" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/mdf.png" title="MTA: Database Fundamentals" width="100px"/></td></tr></table>
+| <a href="https://kura.gq"><img src="https://github-readme-stats.vercel.app/api?username=DPulavarthy&count_private=true&show_icons=true&title_color=FFFFFF&icon_color=E18499&text_color=9f9f9f&bg_color=0D1117" alt="Kurasad's Github Status" /></a><a href="https://kura.gq"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DPulavarthy&count_private=true&show_icons=true&title_color=FFFFFF&icon_color=E18499&text_color=9f9f9f&bg_color=0D1117" alt="Kurasad's Github Status" /></a><a href="https://kura.gq"><img src="https://github-readme-stats.vercel.app/api/pin?username=DPulavarthy&repo=rita&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=0D1117" alt="Rita Repo Link" /></a> | <table><tr><td align='center'>May 4, 2020</td><td align='center'>July 8, 2020</td><td align='center'>July 15, 2020</td></tr><tr><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/vbd.png" title="Verified Discord Bot Developer" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/ocs.png" title="Oracle Autonomous Database Cloud 2019 Certified Specialist" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/fca.png" title="Oracle Cloud Infrastructure Foundations 2020 Certified Associate" width="100px"/></tr><tr><td align='center'>July 22, 2020</td><td align='center'>July 29, 2020</td><td align='center'>August 12, 2020</td></tr><tr><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/coca.png" title="Oracle Cloud Infrastructure 2019 Cloud Operations Certified Associate" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/dca.png" title="Oracle Cloud Infrastructure Developer 2020 Certified Associate" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/caa.png" title="Oracle Cloud Infrastructure 2019 Certified Architect Associate" width="100px"/></td></tr><tr><td align='center'>August 12, 2020</td><td align='center'>October 13, 2020</td><td align='center'>March 10, 2021</td></tr><tr><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/cap.png" title="Oracle Cloud Infrastructure 2019 Certified Architect Professional" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/itc.png" title="Introduction to Cybersecurity" width="100px"/></td><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/mdf.png" title="MTA: Database Fundamentals - Certified 2021" width="100px"/></td></tr><tr><td align='center'>April 1, 2021</td><td align='center'></td><td align='center'></td></tr><tr><td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/sdf.png" title="MTA: Software Development Fundamentals - Certified 2021" width="100px"/></td><td align='center'><img src="" title="" width="100px"/></td><td align='center'><img src="" title="" width="100px"/></td></tr>
+</table>
 
 <!--
  === STATS RAW ===
@@ -63,9 +64,9 @@
       <td align='center'>July 15, 2020</td>
    </tr>
    <tr>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/vbd.png" title="Verified Discord Bot Developer" width="100px"/></td>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/ocs.png" title="Oracle Autonomous Database Cloud 2019 Certified Specialist" width="100px"/></td>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/fca.png" title="Oracle Cloud Infrastructure Foundations 2020 Certified Associate" width="100px"/>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/vbd.png" title="Verified Discord Bot Developer" width="100px"/></td>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/ocs.png" title="Oracle Autonomous Database Cloud 2019 Certified Specialist" width="100px"/></td>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/fca.png" title="Oracle Cloud Infrastructure Foundations 2020 Certified Associate" width="100px"/>
    </tr>
    <tr>
       <td align='center'>July 22, 2020</td>
@@ -73,9 +74,9 @@
       <td align='center'>August 12, 2020</td>
    </tr>
    <tr>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/coca.png" title="Oracle Cloud Infrastructure 2019 Cloud Operations Certified Associate" width="100px"/></td>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/dca.png" title="Oracle Cloud Infrastructure Developer 2020 Certified Associate" width="100px"/></td>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/caa.png" title="Oracle Cloud Infrastructure 2019 Certified Architect Associate" width="100px"/></td>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/coca.png" title="Oracle Cloud Infrastructure 2019 Cloud Operations Certified Associate" width="100px"/></td>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/dca.png" title="Oracle Cloud Infrastructure Developer 2020 Certified Associate" width="100px"/></td>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/caa.png" title="Oracle Cloud Infrastructure 2019 Certified Architect Associate" width="100px"/></td>
    </tr>
    <tr>
       <td align='center'>August 12, 2020</td>
@@ -83,9 +84,19 @@
       <td align='center'>March 10, 2021</td>
    </tr>
    <tr>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/cap.png" title="Oracle Cloud Infrastructure 2019 Certified Architect Professional" width="100px"/></td>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/itc.png" title="Introduction to Cybersecurity" width="100px"/></td>
-      <td align='center'><img src="https://hacking-with-ht.ml/kuragq/badges/mdf.png" title="MTA: Database Fundamentals" width="100px"/></td>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/cap.png" title="Oracle Cloud Infrastructure 2019 Certified Architect Professional" width="100px"/></td>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/itc.png" title="Introduction to Cybersecurity" width="100px"/></td>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/mdf.png" title="MTA: Database Fundamentals" width="100px"/></td>
+   </tr>
+   <tr>
+      <td align='center'>April 1, 2021</td>
+      <td align='center'></td>
+      <td align='center'></td>
+   </tr>
+   <tr>
+      <td align='center'><img src="https://hacking-with-ht.ml/kurasad/badges/sdf.png" title="MTA: Software Development Fundamentals - Certified 2021" width="100px"/></td>
+      <td align='center'><img src="" title="" width="100px"/></td>
+      <td align='center'><img src="" title="" width="100px"/></td>
    </tr>
 </table>
 -->

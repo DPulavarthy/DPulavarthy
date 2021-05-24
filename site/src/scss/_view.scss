@@ -1,0 +1,1013 @@
+/* All styles for class 'view', some styles in './main.scss'. */
+@import 'root';
+
+/* hr tag styles. */
+hr {
+    height: 3px;
+    background: black(4);
+    border: none;
+    border-radius: 1px;
+}
+
+/* h1 tag styles. */
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 30px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* h3 tag styles. */
+h3 {
+    font-size: 20px;
+    font-family: $font-code;
+    margin-block-end: 0;
+    color: $master;
+}
+
+/* h5 tag styles. */
+h5 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* All pages h1 styles. */
+.profile,
+.aboutme,
+.certifs,
+.project,
+.myanime,
+.credits,
+.FourOFour {
+    h1:before {
+        font-size: 20px;
+        font-weight: normal;
+        color: $font-color;
+        opacity: 0.8;
+        float: right;
+        margin-right: 20px;
+        background: black(3);
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+/* Profile page styles. */
+.profile {
+    /* h1 tag styles. */
+    h1:before {
+        content: 'A little bit about who I am.';
+    }
+
+    /* Profile content styles */
+    .content {
+        display: grid;
+        grid-template-areas: 'icon info' 'icon exp';
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr auto;
+        grid-gap: 5px;
+        margin: 5px;
+
+        /* Content div styles. */
+        div {
+            transition-duration: 0.5s;
+            background-color: black(2);
+            text-align: center;
+            padding: 5px;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+
+        /* Icon cell styles */
+        #icon {
+            grid-area: icon;
+
+            /* PFP styles. */
+            #pfp {
+                max-width: 285px;
+                border-radius: 50%;
+                vertical-align: middle;
+                border: 15px solid $offine; /* Default offline, override with JS. */
+                padding: 4px;
+                margin-top: 20px;
+                animation: float 6s ease-in-out infinite;
+            }
+
+            /* descriminator styles. */
+            #descriminator {
+                display: inherit;
+                font-size: 14px !important;
+                color: $master;
+                display: inline;
+                font-style: italic;
+            }
+
+            /* info styles. */
+            #info {
+                display: grid;
+                grid-template-areas: 'title title';
+                grid-template-rows: auto 1fr 1fr;
+                grid-template-columns: 1fr 2fr;
+                grid-gap: 5px;
+                padding: 0;
+                background: transparent;
+
+                #title {
+                    grid-area: title;
+                }
+            }
+
+            /* Profile image styles. */
+            #profile {
+                background: $master;
+                height: 150px !important;
+                margin-top: 5px;
+                background-image: url(https://hacking-with-ht.ml/kurasad/profile.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 0px -7px;
+            }
+
+            /* a, h3, h5 tags shared styles. */
+            a,
+            h3,
+            h5 {
+                transition-duration: 0.5s;
+                background-color: black(3);
+                text-align: center;
+                padding: 10px;
+                border-radius: 5px;
+            }
+        }
+
+        /* My info cell styles. */
+        #myinfo {
+            grid-area: info;
+        }
+
+        /* My experience cell styles. */
+        #exp {
+            grid-area: exp;
+
+            /* Exp table styles. */
+            .table {
+                display: grid;
+                grid-template-columns: 1fr 4fr;
+                grid-gap: 5px;
+                padding: 5px 0 0 0;
+                background: black(2);
+
+                /* Exp table div styles. */
+                div {
+                    transition-duration: 0.5s;
+                    background-color: black(3);
+                    text-align: center;
+                    font-size: 15px;
+                    border-radius: 5px;
+                    cursor: default;
+                    padding: 5px;
+                }
+
+                /* Progress bar styles. */
+                .progress {
+                    background: black(4);
+                    justify-content: flex-start;
+                    border-radius: 5px;
+                    position: relative;
+                    padding: 1px;
+                    margin: auto;
+                    display: flex;
+                    height: 18px;
+                    width: 99.5%;
+
+                    /* Progress bar perfect full presets. */
+                    div {
+                        border-radius: 5px;
+                        &:after {
+                            float: right;
+                            margin-top: -5px;
+                            color: black(4);
+                            text-shadow: none;
+                            font-weight: bold;
+                            animation: fadein 1s normal forwards;
+                        }
+                    }
+                }
+
+                /* Class one (ten percent) bar fill. */
+                .one {
+                    animation: load_one 1s normal forwards;
+                    &:after {
+                        content: '10%';
+                    }
+                }
+
+                /* Class two (twenty percent) bar fill. */
+                .two {
+                    animation: load_two 1s normal forwards;
+                    &:after {
+                        content: '20%';
+                    }
+                }
+
+                /* Class three (three percent) bar fill. */
+                .three {
+                    animation: load_three 1s normal forwards;
+                    &:after {
+                        content: '30%';
+                    }
+                }
+
+                /* Class four (fourty percent) bar fill. */
+                .four {
+                    animation: load_four 1s normal forwards;
+                    &:after {
+                        content: '40%';
+                    }
+                }
+
+                /* Class five (fifty percent) bar fill. */
+                .five {
+                    animation: load_five 1s normal forwards;
+                    &:after {
+                        content: '50%';
+                    }
+                }
+
+                /* Class six (sixty percent) bar fill. */
+                .six {
+                    animation: load_six 1s normal forwards;
+                    &:after {
+                        content: '60%';
+                    }
+                }
+
+                /* Class seven (seventy percent) bar fill. */
+                .seven {
+                    animation: load_seven 1s normal forwards;
+                    &:after {
+                        content: '70%';
+                    }
+                }
+
+                /* Class eight (eighty percent) bar fill. */
+                .eight {
+                    animation: load_eight 1s normal forwards;
+                    &:after {
+                        content: '80%';
+                    }
+                }
+
+                /* Class nine (ninety percent) bar fill. */
+                .nine {
+                    animation: load_nine 1s normal forwards;
+                    &:after {
+                        content: '90%';
+                    }
+                }
+
+                /* Class ten (one hundred percent) bar fill. */
+                .ten {
+                    animation: load_ten 1s normal forwards;
+                    &:after {
+                        content: '100%';
+                    }
+                }
+            }
+        }
+
+        /* My info and my experience cells shared styles. */
+        #myinfo,
+        #exp {
+            /* h3 tag styles. */
+            h3 {
+                background-color: black(3);
+                padding: 5px;
+                border-radius: 5px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+            }
+
+            /* body class styles. */
+            .body {
+                margin-top: 5px;
+                background-color: black(3);
+                padding: 10px;
+                border-radius: 5px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+/* About Me page styles. */
+.aboutme {
+    /* h1 tag styles. */
+    h1:before {
+        content: 'I do not like coffee.';
+    }
+
+    /* About Me content styles */
+    .content {
+        transition-duration: 0.5s;
+        display: grid;
+        grid-template-areas: 'likesti oviewti vgoodti' 'likes oview vgood' 'likes image vgood' 'quote quote quote';
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 2fr 6fr 1fr;
+        grid-gap: 5px;
+        margin: 5px;
+        padding: 5px;
+        background: black(2);
+
+        /* Content div styles */
+        div {
+            transition-duration: 0.5s;
+            background-color: black(3);
+            text-align: center;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: default;
+            padding: 5px;
+        }
+
+        /* Image cell styles. */
+        #image {
+            grid-area: image;
+            background: $master;
+            background-image: url(https://hacking-with-ht.ml/kurasad/profile.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0px -7px;
+        }
+
+        /* Quote cell styles. */
+        #quote {
+            grid-area: quote;
+
+            /* Quote text formatting styles. */
+            p {
+                margin: auto;
+                padding: 15px;
+                font-size: 18px;
+                &:before {
+                    content: open-quote;
+                }
+                &:after {
+                    content: close-quote ' - Kurasad';
+                }
+            }
+        }
+
+        /* Overview data/text styles. */
+        #overview {
+            grid-area: oview;
+            padding: 10px;
+        }
+
+        /* 'What I am good at' data/text styles. */
+        #good {
+            grid-area: vgood;
+            padding-left: 10px;
+        }
+
+        /* Likes and dislikes data/text styles. */
+        #likes {
+            grid-area: likes;
+
+            /* Likes and dislikes list styles. */
+            p {
+                font-family: $font-code;
+                text-align: left;
+                background: black(4);
+                border-radius: 5px;
+                padding: 5px;
+                padding-left: 10px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                margin: 5px 0;
+                &::before {
+                    content: '❯ ';
+                }
+            }
+
+            hr {
+                background: black(2);
+            }
+        }
+
+        /* Likes and dislikes title styles. */
+        #likesti {
+            grid-area: likesti;
+        }
+
+        /* Overview title styles. */
+        #oviewti {
+            grid-area: oviewti;
+        }
+
+        /* 'What I am good at' title styles. */
+        #vgoodti {
+            grid-area: vgoodti;
+        }
+    }
+}
+
+/* Certifications page styles. */
+.certifs {
+    /* h1 tag styles. */
+    h1:before {
+        content: 'Proof that I do not know what I am doing.';
+    }
+
+    /* Certifications content styles */
+    .content {
+        transition-duration: 0.5s;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        padding: 0 5px 5px 5px;
+
+        /* Content div styles */
+        div {
+            transition-duration: 0.5s;
+            background-color: black(2);
+            text-align: center;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 5px;
+            height: 200px;
+        }
+
+        /* Cells styles. */
+        .cell {
+            transition-duration: 0.5s;
+            display: grid;
+            grid-template-areas: 'img tip' 'img txt';
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr 2fr;
+            grid-gap: 5px;
+            padding: 5px;
+
+            div {
+                background-color: black(3);
+                height: auto;
+            }
+
+            /* Cell image secion styles. */
+            #img {
+                grid-area: img;
+
+                > div {
+                    height: calc(100% - 10px);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+
+            /* Cell tip secion styles. */
+            #tip {
+                grid-area: tip;
+                font-size: 15px;
+                padding: 20px;
+                &:before {
+                    content: 'Earned: ';
+                }
+
+                svg {
+                    filter: drop-shadow(1px 1px 1px black(0));
+                    margin-top: 5px;
+                    padding-left: 5px;
+                    fill: $font-color;
+                    &:hover {
+                        fill: $master;
+                    }
+                }
+            }
+
+            /* Cell text secion styles. */
+            #txt {
+                font-family: $font-code;
+                grid-area: txt;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+/* My Projects page styles. */
+.project {
+    /* h1 tag styles. */
+    h1:before {
+        content: 'Some cool things I have been a part of.';
+    }
+
+    /* Certifications content styles */
+    .content {
+        transition-duration: 0.5s;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        padding: 0 5px 5px 5px;
+
+        /* Content div styles */
+        div {
+            transition-duration: 0.5s;
+            background-color: black(2);
+            text-align: center;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 5px;
+            height: 200px;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        /* Cells styles. */
+        .cell {
+            transition-duration: 0.5s;
+            display: grid;
+            grid-template-areas: 'img tip' 'img txt';
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr 2fr;
+            grid-gap: 5px;
+            padding: 5px;
+
+            div {
+                background-color: black(3);
+                height: auto;
+            }
+
+            /* Cell image secion styles. */
+            #img {
+                grid-area: img;
+
+                > div {
+                    height: calc(100% - 10px);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+
+            /* Cell tip secion styles. */
+            #tip {
+                grid-area: tip;
+                font-size: 15px;
+                padding: 20px;
+
+                div {
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                    display: contents;
+                    color: $master;
+                }
+
+                svg {
+                    filter: drop-shadow(1px 1px 1px black(0));
+                    margin-top: 5px;
+                    padding-left: 5px;
+                    fill: $font-color;
+                    &:hover {
+                        fill: $master;
+                    }
+                }
+            }
+
+            /* Cell text secion styles. */
+            #txt {
+                font-family: $font-code;
+                grid-area: txt;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+/* My Anime List page styles. */
+.myanime {
+    /* h1 tag styles. */
+    h1:before {
+        content: 'No, I am not a tsundere, B-BAKA!';
+    }
+
+    /* Certifications content styles */
+    .content {
+        transition-duration: 0.5s;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        padding: 0 5px 5px 5px;
+
+        /* Content div styles */
+        div {
+            transition-duration: 0.5s;
+            background-color: black(2);
+            text-align: center;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 5px;
+            height: 200px;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        /* Cells styles. */
+        .cell {
+            transition-duration: 0.5s;
+            display: grid;
+            grid-template-areas: 'img tip' 'img txt';
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr 2fr;
+            grid-gap: 5px;
+            padding: 5px;
+
+            div {
+                background-color: black(3);
+                height: auto;
+            }
+
+            /* Cell image secion styles. */
+            #img {
+                grid-area: img;
+
+                > div {
+                    height: calc(100% - 10px);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+
+            /* Cell tip secion styles. */
+            #tip {
+                grid-area: tip;
+                font-size: 15px;
+                padding: 20px;
+
+                div {
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                    display: contents;
+                    color: $master;
+                }
+            }
+
+            /* Cell text secion styles. */
+            #txt {
+                font-family: $font-code;
+                grid-area: txt;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.credits {
+    h1:before {
+        content: '¯\\_(ツ)_/¯';
+    }
+
+    .content {
+        transition-duration: 0.5s;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        margin: 5px;
+        padding: 5px;
+        background: black(2);
+
+        div {
+            transition-duration: 0.5s;
+            background-color: black(3);
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 5px;
+            display: inline;
+            div {
+                padding: 2px;
+                background-color: black(4);
+            }
+        }
+
+        a {
+            color: $master;
+            text-decoration: none;
+
+            svg {
+                filter: drop-shadow(1px 1px 1px black(0));
+                margin-top: 5px;
+                padding-left: 5px;
+                fill: $font-color;
+                &:hover {
+                    fill: $master;
+                }
+            }
+        }
+
+        #image {
+            text-align: center;
+
+            img {
+                margin-top: -20px;
+            }
+        }
+
+        img {
+            vertical-align: middle;
+        }
+    }
+}
+
+/* 404 page message. */
+.FourOFour {
+    h1:before {
+        content: 'Not found, we looked everywhere...';
+    }
+
+    .content {
+        text-align: center;
+        img {
+            width: 20%;
+            padding-top: 20px;
+        }
+        h3 {
+            font-size: 40px;
+        }
+        h5 {
+            padding: 0 20%;
+            p {
+                margin-block-start: 0;
+                margin-block-end: 0;
+                display: contents;
+                &:before {
+                    content: open-quote;
+                }
+                &:after {
+                    content: close-quote;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: $master;
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    /* Certifications tab styles. */
+    .certifs {
+        .content {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    /* My Projects tab styles. */
+    .project {
+        .content {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    /* My Anime List tab styles. */
+    .myanime {
+        .content {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+/* Mobile view formatting. */
+@media (max-width: 800px) {
+    /* All tabs shared styles. */
+    .profile,
+    .aboutme,
+    .certifs,
+    .project,
+    .myanime,
+    .credits,
+    .FourOFour {
+        h1:before {
+            content: none !important;
+        }
+    }
+
+    /* Profile tab styles. */
+    .profile {
+        .content {
+            display: block;
+
+            > div {
+                margin: 5px 0;
+            }
+
+            #profile {
+                opacity: 0;
+                position: absolute;
+            }
+        }
+    }
+
+    /* About Me tab styles. */
+    .aboutme {
+        .content {
+            grid-template-areas: 'oviewti' 'oview' 'likesti' 'likes' 'vgoodti' 'vgood';
+            grid-template-rows: 0.4fr auto 0.4fr 2fr 0.4fr auto;
+            grid-template-columns: 1fr;
+
+            #image,
+            #quote {
+                visibility: hidden;
+                position: absolute;
+            }
+        }
+    }
+
+    /* Certifications tab styles. */
+    .certifs {
+        .content {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /* My Projects tab styles. */
+    .project {
+        .content {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /* My Anime List tab styles. */
+    .myanime {
+        .content {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /* Credits tab styles. */
+    .credits {
+        .content {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+/* Fade in progress bar. */
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Class one (ten percent) progress animation. */
+@keyframes load_one {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 10%;
+    }
+}
+
+/* Class two (twenty percent) progress animation. */
+@keyframes load_two {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 20%;
+    }
+}
+
+/* Class three (thirty percent) progress animation. */
+@keyframes load_three {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 30%;
+    }
+}
+
+/* Class four (fourty percent) progress animation. */
+@keyframes load_four {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 40%;
+    }
+}
+
+/* Class five (fifty percent) progress animation. */
+@keyframes load_five {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 50%;
+    }
+}
+
+/* Class six (sixty percent) progress animation. */
+@keyframes load_six {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 60%;
+    }
+}
+
+/* Class seven (seventy percent) progress animation. */
+@keyframes load_seven {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 70%;
+    }
+}
+
+/* Class eight (eighty percent) progress animation. */
+@keyframes load_eight {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 80%;
+    }
+}
+
+/* Class nine (ninety percent) progress animation. */
+@keyframes load_nine {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 90%;
+    }
+}
+
+/* Class ten (one hundred percent) progress animation. */
+@keyframes load_ten {
+    0% {
+        background: black(4);
+        width: 0;
+    }
+    100% {
+        background: $master;
+        width: 100%;
+    }
+}
+
+/* Floating animation for PFP. */
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-10px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+        transform: translatey(0px);
+    }
+}
