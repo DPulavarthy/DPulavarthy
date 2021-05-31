@@ -22,12 +22,7 @@ class Data extends React.Component {
         if (this.props.data) this.hide()
 
         // Return HTML data for preloader view.
-        return (
-            <div id="load">
-                <div id="image"></div>
-                <div id="logo"></div>
-            </div>
-        )
+        return <div id="load"><div id="image"></div></div>
     }
 
     /**
@@ -38,7 +33,8 @@ class Data extends React.Component {
      */
 
     hide() {
-        Object.mergify(document.getElementsByClassName(`load`)[0].style, { opacity: 0, pointerEvents: `none`, transitionDuration: `1s`, zIndex: -1 })
+        // Set delay for a just-in-case scenerio as well as the user can see the preloader contents.
+        setTimeout(_ => Object.mergify(document.getElementsByClassName(`load`)[0].style, { opacity: 0, pointerEvents: `none`, transitionDuration: `0.5s`, zIndex: -1 }), 500)
     }
 }
 
