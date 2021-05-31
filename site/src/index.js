@@ -10,7 +10,7 @@ import Load from './Load'
 import Notif from './Notif'
 
 // Import 'axios' for web requests.
-import axios from 'axios'
+import fetch from 'node-fetch'
 
 // Init preloader.
 Load()
@@ -161,14 +161,18 @@ else viewPage = window.location.hash?.slice(1) ?? `profile`
 
 
 // Use 'axios' to request data for 'Kurasad' from custom API.
-axios.get(`https://api.kurasad.dev/status/476812566530883604`)
+fetch(`https://api.kurasad.dev/status/476812566530883604`)
 
-    // Then set the returned data to a global variable.
-    .then(res => global.Data = res.data.data)
+    // Then get the data from the request.
+    .then(res => res.json())
 
     // Then run functions to load the webpage.
-    .then(_ => {
+    .then(body => {
 
+        // Set the returned data to a global variable.
+        global.Data = body.data
+
+        // Load time calculator.
         global.Load.data = new Date().getTime()
 
         // Load web menu.
@@ -181,4 +185,4 @@ axios.get(`https://api.kurasad.dev/status/476812566530883604`)
         View(viewPage)
     })
 
-// 🔒 This is protected code, see https://kura.gq/terms for more information.
+// 🔒 This is protected code, see https://kurasad.dev/terms for more information.
