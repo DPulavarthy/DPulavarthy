@@ -44,9 +44,9 @@ export default class Credits extends React.Component {
 
                         {/* React and SCSS. */}
                         ❯ This site was build using the following:&nbsp;
-                        <img src="https://hacking-with-ht.ml/kurasad/react.png" alt="" width="20px" title="react" /> React
+                        <img src="https://hacking-with-ht.ml/kurasad/icons/react.png" alt="" width="20px" title="react" draggable="false" /> React
                         +&nbsp;
-                        <img src="https://hacking-with-ht.ml/kurasad/scss.png" alt="" width="20px" title="scss" /> SCSS
+                        <img src="https://hacking-with-ht.ml/kurasad/icons/scss.png" alt="" width="20px" title="scss" draggable="false" /> SCSS
                         <br />
 
                         {/* Author. */}
