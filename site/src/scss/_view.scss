@@ -154,6 +154,49 @@ h5 {
         #exp {
             grid-area: exp;
 
+            #mern {
+                position: relative;
+                display: inline-block;
+                background: transparent;
+                padding: 0;
+                cursor: pointer;
+                font-family: $font-code;
+                color: $master;
+
+                #hover {
+                    visibility: hidden;
+                    width: max-content;
+                    background-color: black(1);
+                    color: $font-color;
+                    font-family: $font-code;
+                    text-align: center;
+                    border-radius: 5px;
+                    padding: 5px;
+                    position: absolute;
+                    z-index: 1;
+                    bottom: 150%;
+                    left: 50%;
+                    margin-left: -160px;
+                    filter: drop-shadow(0 0 5px black(1));
+
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        margin-left: -5px;
+                        border-width: 5px;
+                        border-style: solid;
+                        border-color: black(1) transparent transparent transparent;
+                    }
+                }
+
+                &:hover #hover {
+                    transition-duration: 0.5s;
+                    visibility: visible;
+                }
+            }
+
             /* Exp table styles. */
             .table {
                 display: grid;
@@ -196,7 +239,7 @@ h5 {
                             font-weight: bold;
                             animation: fadein 1s normal forwards;
                         }
-                    }
+                    }   
                 }
 
                 /* Class one (ten percent) bar fill. */
@@ -383,8 +426,6 @@ h5 {
             p {
                 font-family: $font-code;
                 text-align: left;
-                background: black(4);
-                border-radius: 5px;
                 padding: 5px;
                 padding-left: 10px;
                 margin-block-start: 0;
@@ -693,6 +734,7 @@ h5 {
             border-radius: 5px;
             padding: 5px;
             display: inline;
+
             div {
                 padding: 2px;
                 background-color: black(4);
@@ -703,14 +745,15 @@ h5 {
             color: $master;
             text-decoration: none;
 
+            &:hover svg {
+                fill: $master;
+            }
+
             svg {
                 filter: drop-shadow(1px 1px 1px black(0));
                 margin-top: 5px;
                 padding-left: 5px;
                 fill: $font-color;
-                &:hover {
-                    fill: $master;
-                }
             }
         }
 
@@ -816,6 +859,10 @@ h5 {
                 opacity: 0;
                 position: absolute;
             }
+
+            .table {
+                grid-template-columns: 1.5fr 3.5fr !important;
+            }
         }
     }
 
@@ -859,6 +906,11 @@ h5 {
     .credits {
         .content {
             grid-template-columns: 1fr;
+
+            div {
+                font-size: 13px;
+                padding: 10px 5px;
+            }
         }
     }
 }

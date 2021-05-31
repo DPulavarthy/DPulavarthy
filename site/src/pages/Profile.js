@@ -76,7 +76,7 @@ export default class Profile extends React.Component {
                         {/* Content. */}
                         <div className="body">
                             I am experienced in a few langauges, but I mostly learn something new when I am feeling like I want to try something I have not done before.
-                            Currently I am a M.E.R.N. dev but that is just one accomplishment of many that I wish to achieve.
+                            Currently I am a <div id="mern">M.E.R.N.<div id="hover"> MongoDB + Express + React + NodeJS </div></div> dev but that is just one accomplishment of many that I wish to achieve.
                         </div>
 
                         {/* Table. */}

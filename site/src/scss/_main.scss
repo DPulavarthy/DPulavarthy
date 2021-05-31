@@ -30,6 +30,7 @@ body {
         user-select: none;
     }
 
+    /* Notification styles. */
     .noif {
         display: grid;
         grid-template-columns: 1fr 2fr 5fr 2fr 0.5fr;
@@ -54,20 +55,24 @@ body {
         -ms-user-select: none;
         user-select: none;
 
+        /* Notification element styles. */
         #noif {
             display: contents;
         }
 
+        /* Notification content styles. */
         div {
             padding: 5px;
             margin: auto;
             background: rgba(0, 0, 0, 0.3);
         }
 
+        /* Notification spacing styles. */
         .space {
             visibility: hidden;
         }
 
+        /* Notification exit button styles. */
         .exit {
             width: 30px;
             cursor: pointer;
@@ -79,6 +84,7 @@ body {
         }
     }
 
+    /* Preloader styles. */
     .load {
         position: fixed;
         top: 0;
@@ -87,11 +93,14 @@ body {
         bottom: 0;
         background: black(0);
         z-index: 9999;
+        cursor: progress;
 
+        /* Preloader background. */
         div {
             background: black(0);
         }
 
+        /* Preloader image. */
         #image {
             width: 200px;
             height: 200px;
@@ -103,20 +112,6 @@ body {
             background-repeat: no-repeat;
             background-position: center;
             margin: -100px 0 0 -100px;
-        }
-
-        #logo {
-            position: absolute;
-            background-color: transparent;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            width: 200px;
-            height: 250px;
-            opacity: 0.5;
-            right: 0;
-            bottom: 0;
-            background-image: url(https://hacking-with-ht.ml/jonin.png);
         }
     }
 
@@ -233,7 +228,7 @@ body {
                 }
                 &:last-child {
                     &:after {
-                        content: "It's a great day.";
+                        /* content: "It's a great day."; */
                         display: block;
                     }
                 }
