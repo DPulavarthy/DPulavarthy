@@ -6,10 +6,6 @@
         <!-- My Discord Tag -->
         [<a href="https://kura.gq">Kurasad#2521</a>]
     </h1>
-    <!-- My Site -->
-    <a href="https://app.netlify.com/sites/kurasad/deploys">
-        <img src="https://api.netlify.com/api/v1/badges/487f9528-984c-482e-9f50-2e697a55c22a/deploy-status" alt="kura.gq site status [https://kura.gq]" />
-    </a>
     <!-- My Server -->
     <a href="https://kura.gq/support">
         <img src="https://discordapp.com/api/guilds/666312150775758853/widget.png" alt="Jonin Support server [https://kura.gq/support]" />
